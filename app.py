@@ -10,7 +10,6 @@ import plotly.graph_objects as go
 # ──────────────────────────────────────────────
 
 API_KEY = st.secrets["general"]["WEATHER_API_KEY"]
-st.sidebar.write("🔑 API KEY:", API_KEY)
 
 
 st.set_page_config(page_title="Daily Weather Planner", page_icon="🌦️", layout="wide")
